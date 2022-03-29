@@ -10,7 +10,7 @@
 		{{#if keywords.length}}
 		<div class="keywords">
 			{{#each keywords}}
-			<span class="label label-default">{{.}}</span>
+			<span class="label label-default"><mark class="rounded">{{wordWrap .}}</mark></span>
 			{{/each}}
 		</div>
 		{{/if}}
